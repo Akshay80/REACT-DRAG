@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --fontColor : #c7c7c7;
+    --bgColor : rgb(84,86,212);
+    --boxHead: #6156F5;
+}
+.topHeader{
+    background-color: var(--bgColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerMenu{
+    background-image: url("https://www.comet.ml/site/app/uploads/2020/01/Home-page-hero-bg-min-1.jpg");
+}
+.navbar{
+    background-image: url("https://www.comet.ml/site/app/uploads/2020/01/Home-page-hero-bg-min-1.jpg");
+    position: sticky !important;
+    top: 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 14px;
+    color: #c1c1c1 !important;
+    padding: 14px 16px; 
+}
+.flexDiv{
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoWrapper{
+    margin-right: 65px !important;
+}
+.menu .logoWrapper img{
+    width: 115px;
+}
+.menu .menuItem a, .loginBox a{
+    color: var(--fontColor);
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 18px 0px 0px;
+    font-weight: 600;
+}
+.mRight{
+    margin-left: 30px;
+    align-items: center;
+}
+.dropdownBtn{
+    text-transform: capitalize !important;
+    color: var(--fontColor) !important;
+    padding: 0px 18px 0px 0px !important; 
+}
+.dropdownBtn span{
+    margin-left: 0px;
+}
+.dropdownBtn span svg{
+    color: #ED353F;
+}
+.gridContainer{
+    width:1050px;
+    margin: 0 auto;
+}
+.navbarFlex{
+    justify-content: space-between;
+}
+.signupBtn button{
+    background: transparent;
+    border: 1px solid #e11847;
+    color: #e11847;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 3px;
+}
+.headerMenu{
+    position: relative;
+    height: 700px;
+}
+.videoBox{
+    position: relative;
+    top: -130px;
+}
+.videoBox img{
+    width: 100%;
+}
+.sliderHead{
+    color: #fff;
+    font-size: 68px;
+    font-weight: 100;
+}
+.flexDiv p{
+    color:#fff;
+}
+.navbar .navbar-collapse{
+    justify-content: space-around;
+}
+
+/* boxes */
+.logos{
+    text-align: center;
+}
+
+.logos img{
+    text-align: center;
+    max-width: 171px;
+}
+.boxesHead h1{
+    color: var(--boxHead);
+    font-weight: 300;
+}
+.box{
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 34px #cfcfcfad;
+    padding: 40px 25px;
+    border-radius: 15px;
+    min-height: 360px;
+}
+.boxPadding{
+    padding:75px 0px 30px 0px;
+}
+.box h1{
+    font-size: 25px;
+    padding: 25px 0px;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+}
+.box h1::after{
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-image: linear-gradient(45deg, #6155f5, #77b0f8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.box p{
+    margin: 0;
+    padding-top: 25px;
+}
+.flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexBox .cometImg{
+    width:150px;
+}
+.bgGradiant{
+    background-image: linear-gradient(to bottom, #ffffff 50%, #F6F7FC 50%);
+}
+.contentWrapperRight{
+    padding-right:12% !important;
+}
+.contentWrapperLeft{
+    padding-left:12% !important;
+}
+/* services */
+.featurette-heading{
+    font-weight: 100;
+    font-size: 65px;
+    position: relative;
+}
+.featurette-heading::before{
+    position: absolute;
+    content:"";
+    top: -12px;
+    left: 0;
+    width: 85px;
+    background-image: linear-gradient(45deg, #6155f5, #77b0f8);
+    height: 3px;
+}
+.imgService img{
+    width: 100%;
+}
+.before::before{
+    display: none;
+}
+.beforeBox .box{
+    min-height: 450px;
+}
+.beforeBox .link{
+    color: #ef0000 !important;
+    font-size: 22px;
+}
+.userInfo{
+    padding-top: 20px;
+}
+.userInfo img{
+    border-radius: 50%;
+    height: 50px;
+
+}
+.userInfo .userContent h1{
+    padding: 10px;
+}
+.userInfo .userContent p{
+    padding-top: 5px;
+}
+.box{
+    position: relative;
+}
+.box .testBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.testimonial.box{
+    min-height: 350px;
+    box-shadow: 0px 11px 34px #cfcfcfad;
+}
+.slick-slide img{
+    display: unset !important;
+}
+.testimonial.box{
+    width: 94% !important;
+    box-shadow: none;
+}
+
+/* get started */
+.bgImage{
+    background-image: url("https://www.comet.ml/site/app/uploads/2020/01/Top-footer-BG.png");
+    background-size: 100% 100%;
+}
+
+/* footer */
+footer{
+    background: linear-gradient(180.82deg, #4648A9 -16.23%, #3B3985 15.33%, #231E5A 56.66%, #090042 104.97%);
+    color: #ffffff;
+    font-size: 22px;
+}
+.iconWrapper svg{
+    margin-right: 5px;
+    width: 44px;
+}
+.footerLast p{
+    font-size: 16px;
+}
+.divPad{
+    padding-top: 20px;
+}
+.footerLogo{
+    width:115px;
+}
+/* media */
+@media(max-width:600px){
+    .flexDiv svg{
+        height: 300px;
+        width: 100%;
+    }
+    .flexBox .logos{
+        padding: 20px 0px;
+    }
+    .divPad{
+        padding: 0px !important;
+    }
+    .flexDiv {
+        flex-direction: column-reverse;
+    }
+    .divContent{
+        text-align: center;
+    }
+    .sliderHead{
+        font-size: 40px;
+    }
+    .headerMenu{
+        height: 750px;
+    }
+    .videoBox{
+        top: -78px;
+    }
+    .boxesHead h1{
+        font-size: 22px;
+        padding:0 40px;
+    }
+    .box{
+        margin: 15px;
+    }
+    .featurette-heading{
+        font-size: 40px;
+    }
+    .footerLast p{
+        font-size: 20px;
+    }
+    .contentWrapperRight{
+        padding-right:0px !important;
+    }
+    .contentWrapperLeft{
+        padding-left:0px !important;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6, p, span{
+    font-family: 'Open Sans', sans-serif !important;
+}
